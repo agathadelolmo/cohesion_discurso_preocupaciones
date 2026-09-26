@@ -34,7 +34,9 @@ How to run
 3. Load stringr and tidyr before running the script. The script uses str_replace_all(), str_split() and unnest_longer() but does not load these packages itself:
 
    library(stringr)
+   
    library(tidyr)
+   
    source("final_codigo_limpio.R")
 
 Contact
