@@ -28,11 +28,11 @@ All the data used in this project is included in the repository. The CIS microda
 How to run
 1. Clone the repository and set the working directory to the final/ folder, because the script uses relative paths (./programa_vox.pdf, ./MD3431/3431_num.csv).
 2. Install the required packages:
-r
+
    install.packages(c("nnet", "dplyr", "pdftools", "stm", "LDAvis", "quanteda",
                       "purrr", "ggplot2", "ggeffects", "stringr", "tidyr"))
 3. Load stringr and tidyr before running the script. The script uses str_replace_all(), str_split() and unnest_longer() but does not load these packages itself:
-r
+
    library(stringr)
    library(tidyr)
    source("final_codigo_limpio.R")
